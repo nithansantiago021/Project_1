@@ -37,7 +37,8 @@ airport_default_data = {
     "CGH": ['SBSP', 'São Paulo Congonhas', 'br'],
     "LHR": ['EGLL','London Heathrow','gb'],
     "CDG": ['LFPG','Paris Charles de Gaulle','fr'],
-    "JNB": ['FAOR',"Jo'anna Johannesburg OR Tambo", 'za']
+    "JNB": ['FAOR',"Jo'anna Johannesburg OR Tambo", 'za'],
+    "SIN": ['WSSS', 'Singapore', 'sg']
 }
 
 try:
