@@ -26,18 +26,18 @@ db_config = {
 
 
 airport_default_data = {
-    'DEL':['VOBL','New Delhi', 'in'],
-    'BLR':['VOBL','Banglaore', 'in'],
+    'DEL':['VOBL','New Delhi Indira Gandhi', 'in'],
+    'BLR':['VOBL','Banglaore Bengaluru', 'in'],
     'DXB':['OMDB', 'Dubai', 'ae'],
-    "HKG": ['VHHH', 'Hong Kong', 'hk'],
-    "HND": ['RJTT', 'Tokyo', 'jp'],
-    "SYD": ['YSSY', 'Sydney', 'au'],
+    "HKG": ['VHHH', 'Hong Kong Chek Lap Kok', 'hk'],
+    "HND": ['RJTT', 'Tokyo Haneda', 'jp'],
+    "SYD": ['YSSY', 'Sydney Kingsford Smith', 'au'],
     "SFO": ['KSFO','San Francisco', 'us'],
-    "JFK": ['KJFK', 'New York', 'us'],
-    "CGH": ['SBSP', 'São Paulo', 'br'],
-    "LHR": ['EGLL','London','gb'],
-    "CDG": ['LFPG','Paris','fr'],
-    "JNB": ['FAOR',"Johannesburg", 'za'],
+    "JFK": ['KJFK', 'New York John F Kennedy', 'us'],
+    "CGH": ['SBSP', 'São Paulo Congonhas', 'br'],
+    "LHR": ['EGLL','London Heathrow','gb'],
+    "CDG": ['LFPG','Paris Charles de Gaulle','fr'],
+    "JNB": ['FAOR',"Jo'anna Johannesburg OR Tambo", 'za'],
     "SIN": ['WSSS', 'Singapore', 'sg']
 }
 
