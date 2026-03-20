@@ -24,6 +24,30 @@ This is a part of GUVI DS project it is designed to assist aviation enthusiasts,
 
 ---
 
+### Project Structure
+```bash
+Project_1 /
+│
+├── streamlit_app.py          # Main entry point for the dashboard
+├── requirements.txt          # List of Python dependencies (pandas, streamlit, sqlalchemy, etc.)
+├── .env                      # API keys and Database credentials (ignored by git)
+│
+├── src/                      # Core logic and processing
+│   ├── __init__.py
+│   ├── pipeline.py           # Orchestrates the full ETL (Extract, Transform, Load) process
+│   ├── database.py           # MySQL connection setup and SQLAlchemy engines
+│   ├── queries.py            # SQL queries for data retrieval and cleaning
+│   └── components/               # UI modules for the Streamlit dashboard
+│       ├── __init__.py
+│       ├── maps.py               # Map-based visualizations (Plotly)
+│       ├── tab1.py               # Flight status and general statistics
+│       ├── tab2.py               # Carrier performance and delays
+│       └── tab3.py               # Route analysis and airport insights
+
+```
+
+---
+
 ### How to Run the Project Locally
 
 #### Prerequisites
@@ -48,3 +72,4 @@ pip install -r requirements.txt
 ```bash
 streamlit run dashboard.py
 ```
+
