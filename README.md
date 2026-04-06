@@ -1,5 +1,4 @@
-# Project_1
-## Air Tracker: Flight Analytics
+# Air Tracker: Flight Analytics
 
 ### Project Overview
 
